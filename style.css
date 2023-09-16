@@ -79,11 +79,13 @@ a {
     font-size:36px;
     font-weight:bolder;
     color:#1F2937;
+    margin:70px;
 }
 
 .image2 {
     width:200px;
     height:auto;
+    border-radius:15%;
 }
 
 .main-content {
@@ -95,7 +97,7 @@ a {
 
 .main-images {
     display:flex;
-    gap:32px;
+    gap:50px;
 }
 
 .line-break {
@@ -107,7 +109,7 @@ a {
     display:flex;
     justify-content: space-around;
     text-align: center;
-    gap:80px;
+    gap:102px;
 }
 
 .text {
