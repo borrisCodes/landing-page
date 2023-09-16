@@ -1,13 +1,13 @@
 html, body {
     margin:0;
     padding:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .top-part {
-    background-color:#1F2937;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
+    background-color:#1F2937; 
 }
+
 .header {
     display:flex;
     justify-content: space-between;
@@ -30,11 +30,13 @@ a {
     margin-right:48px;
 }
 
+
 .bottom-top-part {
     display:flex;
+    justify-content:center;
     background-color:#1F2937;
     padding:48px;
-    gap:16px;
+    gap:32px;
 }
 
 .hero {
@@ -69,3 +71,48 @@ a {
     font-weight:bolder;
     border-radius:5px;
 }
+
+/* This is the end of the top section of the webpage */
+
+.title {
+    text-align:center;
+    font-size:36px;
+    font-weight:bolder;
+    color:#1F2937;
+}
+
+.image2 {
+    width:200px;
+    height:auto;
+}
+
+.main-content {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-right:32px;
+}
+
+.main-images {
+    display:flex;
+    gap:32px;
+}
+
+.line-break {
+    flex-basis:100%;
+    height:0;
+}
+
+.content-text {
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    gap:80px;
+}
+
+.text {
+    width:150px;
+}
+
+
+
