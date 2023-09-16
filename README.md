@@ -1,1 +1,1 @@
-# landing-page
+This is my first real website styled with CSS, this project will help me learn more about using flexbox and styling a website.
