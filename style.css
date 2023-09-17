@@ -109,12 +109,36 @@ a {
     display:flex;
     justify-content: space-around;
     text-align: center;
-    gap:102px;
+    gap:100px;
 }
 
 .text {
     width:150px;
 }
+
+/* This is the end of the main content section */
+
+.quote-content {
+    display:flex;
+    flex-direction:column;
+    background-color:#E5E7EB;
+    justify-content:center;
+    align-items:center;
+}
+
+.quote {
+    font-size:36px;
+    font-weight:lighter;
+    width:800px;
+    margin-bottom:0px;
+}
+
+.signed-by {
+    font-weight:bolder;
+    margin-left:550px;
+    margin-top:0px;
+}
+
 
 
 
