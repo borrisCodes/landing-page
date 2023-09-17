@@ -38,7 +38,7 @@ a {
     justify-content:center;
     background-color:#1F2937;
     padding:48px;
-    gap:32px;
+    gap:50px;
 }
 
 .hero {
@@ -72,6 +72,7 @@ a {
     height:30px;
     font-weight:bolder;
     border-radius:5px;
+    border:0px groove blue;
 }
 
 /* This is the end of the top section of the webpage */
@@ -183,6 +184,15 @@ a {
     color:#E5E7EB;
     font-weight: bolder;
     padding:5px 25px;
+}
+
+/* This is the end of the call to action segment */
+
+.footer{
+    display:flex;
+    justify-content:center;
+    background-color: #1F2937;
+    color:#E5E7EB;
 }
 
 
