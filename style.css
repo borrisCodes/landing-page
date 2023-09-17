@@ -6,6 +6,7 @@ html, body {
 
 .top-part {
     background-color:#1F2937; 
+    padding-bottom:50px;
 }
 
 .header {
@@ -28,6 +29,7 @@ a {
     color:#E5E7EB;
     display:flex;
     margin-right:48px;
+    text-decoration:none;
 }
 
 
@@ -93,6 +95,7 @@ a {
     flex-wrap:wrap;
     justify-content:center;
     margin-right:32px;
+    padding-bottom:50px;
 }
 
 .main-images {
@@ -124,6 +127,7 @@ a {
     background-color:#E5E7EB;
     justify-content:center;
     align-items:center;
+    padding:75px;
 }
 
 .quote {
@@ -139,6 +143,46 @@ a {
     margin-top:0px;
 }
 
+/* This is the end of the quote section */
 
+.action-container {
+    display:flex;
+    background-color:#F9FAF8;
+    justify-content:center;
+}
+
+.call-to-action {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;;
+    background-color:#3882F6;
+    color:#E5E7EB;
+    padding:20px;
+    margin-top:50px;
+    margin-bottom:50px;
+    width:1000px;
+}
+
+.action-body {
+    display:flex;
+    flex-direction:column;
+    margin-left:100px;
+}
+
+.action-heading {
+    margin-bottom: 0px;
+}
+
+.real-action-button {
+    display:flex;
+    border:2px groove white;
+    align-items: center;
+    border-radius:5px;
+    margin-right:100px;
+    background-color:#3882F6;
+    color:#E5E7EB;
+    font-weight: bolder;
+    padding:5px 25px;
+}
 
 
