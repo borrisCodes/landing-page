@@ -89,6 +89,7 @@ a {
     width:200px;
     height:auto;
     border-radius:15%;
+    border:5px groove blue;
 }
 
 .main-content {
@@ -113,7 +114,7 @@ a {
     display:flex;
     justify-content: space-around;
     text-align: center;
-    gap:100px;
+    gap:110px;
 }
 
 .text {
