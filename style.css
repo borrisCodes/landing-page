@@ -21,7 +21,7 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     gap:100px;
 }
 
@@ -76,7 +76,6 @@ ul {
 
 .body{
     padding-top:30px;
-    padding-bottom: 30px;
 }
 
 .body-header {
@@ -84,7 +83,7 @@ ul {
 }
 
 .gallery {
-    padding-top:30px;
+    padding:50px;
     display:flex;
     justify-content: center;
     gap:50px;
@@ -106,4 +105,23 @@ img {
 .object {
     flex-basis:0;
     border-color:lightblue;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    padding:50px 500px;
+}
+
+.quote {
+    font-size:36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.signature {
+    text-align: end;
+    font-weight:bold;
 }
